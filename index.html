@@ -314,43 +314,21 @@
                         </div>
                     </div>
                 </section>
-                <form class="form" aaction="https://formspree.io/f/podolakmateusz@outlook.com"
-  method="POST">
-                    <div class="form__field--input">
-                        <label>
-                            <p class="visually-hidden">Name<p>
-                            <input type="text" name="name" placeholder="Name" required>
-                        </label>
-                    </div>
-                    <div class="form__field--input">
-                        <label>
-                            <p class="visually-hidden">Phone<p>
-                            <input type="tel" name="phone" placeholder="Phone" required>
-                        </label>
-                    </div>
-                    
-                    
-                    <div class="form__field--input">
-                        <label>
-                            <p class="visually-hidden">Email<p>
-                            <input type="email" name="_replyto" placeholder="Email" required>
-                        </label>
-                    </div>
-                    <div class="form__field--input">
-                        <label>
-                            <p class="visually-hidden">Company name<p>
-                            <input type="text" name="company name" placeholder="Company name" required>
-                        </label>
-                    </div>
-                    
-                    <div class="form__field--textarea ">
-                        <label>
-                            <p class="visually-hidden">Your message<p>
-                            <textarea placeholder="Message..." name="message"></textarea>
-                        </label>
-                    </div>
-                    <input type="submit" value="Submit" class="contact__submit-btn">
-                </form>
+                <form
+  action="https://formspree.io/f/podolakmateusz@outlook.com"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
             </section>
     
         </main>
