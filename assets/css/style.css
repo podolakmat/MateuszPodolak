@@ -1076,6 +1076,22 @@ textarea:focus {
 }
 
 
+@media (min-width:300px) and (max-width: 371px) {
+    
+    .footer p {
+        margin-left: 0px;
+    width: auto;
+   letter-spacing: 1px;
+        width: 80%;
+        font-size: 7px;
+        
+    }
+    .footer__social {
+        line-height: 90px
+    }
+}
+
+
 @media (min-width:454px) and (max-width: 608px) {
     .footer {
     width: 100%;
@@ -1093,7 +1109,7 @@ textarea:focus {
         height: 50px;
     }}
     
-@media (min-width:300px) and (max-width: 453px) {
+@media (min-width: 372px) and (max-width: 453px) {
 
       .footer__social{
       
@@ -1111,12 +1127,11 @@ textarea:focus {
             
     
 }
-   .footer__social {
-        height: 20px;
-    }
+  
+        
 }
     
-    @media (min-width:300px) and (max-width: 512px) {
+    @media (min-width:372px) and (max-width: 512px) {
 
         .footer p {
   
