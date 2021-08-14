@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Website</title>
+        <meta name="Mateusz Podolak" content="name">
+<!--        <meta name="description" content="description here">-->
+        <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    </head>
+    <body>
+      
+        <header class="header" id="header">
+            <nav id="nav" class="nav">
+               
+                <a href="" class="nav__logo"><span class="nav__logo--blue">M</span>ateusz <span class="nav__logo--blue">P</span>odolak</a>  
+         
+                <ul class="nav-links" id="nav-links">
+                    <li>
+                        <a href="#header" class="nav-item">PL</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-item">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#offer" class="nav-item">Offer</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-item">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-item">Contact</a>
+                    </li>
+                </ul>
+                <button class="burger" aria-expanded="false" aria-controls="nav-links">
+                    <span class="visuallyhidden">Menu</span>
+                    <div class="line1 burger__line"></div>
+                    <div class="line2 burger__line"></div>
+                    <div class="line3 burger__line"></div>
+                </button>
+            </nav>
+          
+            <h1 class="header__heading">Welcome</h1>
+            <p class="header__paragraph">Make Your own website</p>
+            
+            <ul class="social">
+                <li class="social__item">
+                    <a href="">
+                        <svg viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="social__link">
+                            <path d="m29.764999,50.319l6.743999,0l0,-16.320999l4.499001,0l0.596001,-5.624001l-5.095001,0l0.007,-2.815001c0,-1.467001 0.139999,-2.253 2.243999,-2.253l2.812,0l0,-5.625l-4.5,0c-5.404999,0 -7.306999,2.729 -7.306999,7.316l0,3.377001l-3.368999,0l0,5.625l3.368999,0l0,16.32zm3.735001,-49.319l28.146,16.25l0,32.5l-28.146,16.25l-28.146,-16.25l0,-32.5l28.146,-16.25z"/>
+                        </svg>
+                    </a>
+                </li>
+ 
+                <li class="social__item">
+                    <a href="">
+                        <svg viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="social__link">
+                            <path d="m50.837002,46.137001l0,-11.712002c0,-6.274 -3.350002,-9.193998 -7.816002,-9.193998c-3.604,0 -5.219002,1.981998 -6.118999,3.372999l0,-2.894001l-6.790001,0c0.09,1.917002 0,20.428001 0,20.428001l6.790001,0l0,-11.409c0,-0.610001 0.043999,-1.220001 0.223999,-1.657001c0.490002,-1.219999 1.607002,-2.481998 3.482002,-2.481998c2.458,0 3.439999,1.874001 3.439999,4.618l0,10.929001l6.789001,0zm-27.878002,-23.215c2.367001,0 3.842001,-1.569 3.842001,-3.531c-0.044001,-2.003 -1.475,-3.528001 -3.797001,-3.528001s-3.841,1.525001 -3.841,3.528001c0,1.962 1.473999,3.531 3.753,3.531l0.042999,0zm3.395,23.215l0,-20.427002l-6.789,0l0,20.427002l6.789,0zm7.146,-45.137001l28.146,16.25l0,32.5l-28.146,16.25l-28.146,-16.25l0,-32.5l28.146,-16.25z"/>
+                        </svg>
+                    </a>
+                </li>
+                
+                <li class="social__item">
+                    <a href="">
+                        <svg viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="social__link">
+                            <path d="M 33.5,1 5.3535156,17.25 v 32.5 L 33.5,66 61.646484,49.75 v -32.5 z m 0,15 c 0.290792,0 0.581401,0.08395 0.833984,0.251953 l 15.998047,10.662109 c 0.0082,0.007 0.01524,0.01373 0.02344,0.01953 0.0245,0.01633 0.04698,0.03328 0.07031,0.05078 0.02917,0.02333 0.05716,0.04972 0.08398,0.07422 0.021,0.01866 0.04072,0.03681 0.06055,0.05664 0.02567,0.02684 0.04972,0.05403 0.07422,0.08203 0.01866,0.02216 0.03445,0.04308 0.05078,0.06641 0.02334,0.02917 0.04345,0.05951 0.06445,0.08984 0.01517,0.02333 0.02819,0.04581 0.04102,0.07031 0.01983,0.03266 0.03641,0.06578 0.05273,0.09961 0.0105,0.0245 0.0227,0.04972 0.0332,0.07422 0.014,0.03617 0.02739,0.0732 0.03906,0.109375 0.0082,0.0245 0.01644,0.04972 0.02344,0.07422 0.0093,0.04083 0.01719,0.083 0.02539,0.125 0.0023,0.02216 0.0094,0.04228 0.01172,0.06445 C 50.995628,28.036036 51,28.101469 51,28.167969 v 10.664062 c 0,0.0665 -0.0044,0.130736 -0.01367,0.191407 -0.0024,0.02333 -0.0082,0.04424 -0.01172,0.06641 -0.007,0.042 -0.01489,0.083 -0.02539,0.125 -0.007,0.02567 -0.01719,0.04972 -0.02539,0.07422 -0.01167,0.03733 -0.02389,0.07516 -0.03906,0.111329 -0.0093,0.0245 -0.01958,0.04776 -0.03125,0.07227 -0.01633,0.03383 -0.0329,0.06773 -0.05273,0.101563 -0.01283,0.02333 -0.0278,0.04503 -0.04297,0.06836 -0.021,0.0315 -0.04112,0.06147 -0.06445,0.0918 -0.01633,0.02217 -0.03211,0.04345 -0.05078,0.06445 -0.02334,0.028 -0.04855,0.05636 -0.07422,0.08203 -0.01983,0.01983 -0.03759,0.03992 -0.05859,0.05859 -0.02684,0.02566 -0.05677,0.04894 -0.08594,0.07227 -0.02333,0.01867 -0.04386,0.03523 -0.06836,0.05273 -0.007,0.0058 -0.01609,0.01178 -0.02539,0.01758 L 34.333984,50.746094 C 34.081984,50.915261 33.7905,51 33.5,51 33.2095,51 32.91919,50.916453 32.666016,50.751953 L 16.669922,40.087891 c -0.0082,-0.0058 -0.01719,-0.01373 -0.02539,-0.01953 -0.02333,-0.0175 -0.04503,-0.03406 -0.06836,-0.05273 -0.02917,-0.02333 -0.05911,-0.04777 -0.08594,-0.07227 -0.01983,-0.01866 -0.03876,-0.03876 -0.05859,-0.05859 -0.02567,-0.02567 -0.04972,-0.05403 -0.07422,-0.08203 -0.0175,-0.021 -0.0364,-0.04033 -0.05273,-0.0625 -0.02334,-0.03034 -0.0415,-0.06225 -0.0625,-0.09375 -0.01517,-0.02333 -0.03014,-0.04503 -0.04297,-0.06836 -0.01866,-0.03383 -0.0364,-0.06773 -0.05273,-0.101563 -0.01166,-0.0245 -0.0227,-0.04776 -0.0332,-0.07227 -0.014,-0.03733 -0.02739,-0.07516 -0.03906,-0.111328 -0.0082,-0.0245 -0.01644,-0.04777 -0.02344,-0.07227 -0.0105,-0.042 -0.01839,-0.08495 -0.02539,-0.126953 -0.0046,-0.02216 -0.0082,-0.04112 -0.01172,-0.06445 C 16.005542,38.963964 16,38.898531 16,38.832031 V 28.167969 c 0,-0.0665 0.0055,-0.133096 0.01367,-0.197266 0.0035,-0.02216 0.0082,-0.04228 0.01172,-0.06445 0.007,-0.042 0.01489,-0.08417 0.02539,-0.125 0.007,-0.0245 0.01524,-0.04972 0.02344,-0.07422 0.01167,-0.03617 0.02506,-0.07321 0.03906,-0.109375 0.0105,-0.02567 0.02153,-0.04972 0.0332,-0.07422 0.01633,-0.03383 0.03406,-0.06694 0.05273,-0.09961 0.014,-0.0245 0.0278,-0.04698 0.04297,-0.07031 0.021,-0.03033 0.03917,-0.05951 0.0625,-0.08984 0.01633,-0.02333 0.03523,-0.04424 0.05273,-0.06641 0.02334,-0.028 0.04855,-0.0552 0.07422,-0.08203 0.01983,-0.01867 0.03876,-0.03914 0.05859,-0.05664 0.028,-0.02566 0.05794,-0.04894 0.08594,-0.07227 0.02333,-0.0175 0.04503,-0.03445 0.06836,-0.05078 0.0082,-0.0058 0.01609,-0.01253 0.02539,-0.01953 L 32.666016,16.251953 C 32.918599,16.083953 33.209208,16 33.5,16 Z m 1.503906,4.3125 v 7.017578 l 6.519532,4.361328 5.265624,-3.521484 z m -3.007812,0.002 -11.785156,7.855469 5.265624,3.521484 6.519532,-4.361328 z M 33.5,29.941406 28.181641,33.5 33.5,37.058594 38.820312,33.5 Z m -14.492188,1.042969 v 5.03125 L 22.769531,33.5 Z m 28.984376,0 -3.763672,2.515625 3.763672,2.515625 z m -22.515626,4.324219 -5.265624,3.521484 11.785156,7.855469 v -7.015625 z m 16.046876,0 -6.519532,4.361328 v 7.015625 l 11.785156,-7.855469 z" /> 
+                        </svg>
+                    </a>
+                </li>
+                         
+                <li class="social__item">
+                    <a href="">
+                        <svg viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="social__link">
+                            <path d="m21.542999,34.568001c-0.053999,0 0.592001,1.367001 0.610001,1.367001c1.41,2.515999 4.128,4.079998 8.712999,4.513c-0.653999,0.487999 -1.439999,1.414997 -1.549,2.485996c-0.823,0.522003 -2.477999,0.695004 -3.764,0.297001c-1.802999,-0.559998 -2.493,-4.066998 -5.191999,-3.566998c-0.584,0.107998 -0.468,0.486 0.037001,0.808998c0.823,0.521999 1.597,1.178001 2.193998,2.570999c0.459002,1.07 1.423,2.982002 4.473001,2.982002c1.209999,0 2.057999,-0.144001 2.057999,-0.144001s0.023001,2.730999 0.023001,3.792999c0,1.225002 -1.681999,1.57 -1.681999,2.159c0,0.232002 0.556999,0.255001 1.004,0.255001c0.883999,0 2.723,-0.726002 2.723,-1.998001c0,-1.010998 0.017,-4.410999 0.017,-5.006001c0,-1.299999 0.709,-1.711998 0.709,-1.711998s0.088001,6.940998 -0.169001,7.871998c-0.302,1.094002 -0.847,0.938 -0.847,1.427002c0,0.725998 2.214003,0.177998 2.948,-1.416c0.567001,-1.240002 0.319,-8.049999 0.319,-8.049999l0.605,-0.012001c0,0 0.034,3.117001 0.013,4.542c-0.021,1.476002 -0.121998,3.341999 0.77,4.222c0.585999,0.577999 2.484001,1.593998 2.484001,0.666c0,-0.539001 -1.040001,-0.982002 -1.040001,-2.441002l0,-6.715c0.831001,0 0.706001,2.208 0.706001,2.208l0.060997,4.103001c0,0 -0.183998,1.493999 1.645,2.119999c0.645,0.222 2.025002,0.281002 2.09,-0.091c0.065002,-0.372997 -1.661999,-0.926998 -1.677998,-2.084999c-0.010002,-0.706001 0.031998,-1.118 0.031998,-4.186001c0,-3.067997 -0.418999,-4.202 -1.879997,-5.105c4.507999,-0.455997 7.299,-1.551998 8.657997,-4.487c0.106003,0.003002 0.555,-1.370998 0.496002,-1.370998c0.305,-1.108002 0.469997,-2.419003 0.501999,-3.972002c-0.007999,-4.209 -2.057999,-5.698 -2.451,-6.396999c0.580002,-3.187 -0.098,-4.638 -0.411999,-5.135c-1.162003,-0.406 -4.041,1.044001 -5.615002,2.066c-2.563999,-0.736 -7.986,-0.666 -10.018999,0.190001c-3.750999,-2.639999 -5.736,-2.235001 -5.736,-2.235001s-1.283001,2.26 -0.339001,5.565001c-1.233999,1.546 -2.153999,2.639999 -2.153999,5.539c0,1.635 0.195999,3.097 0.636999,4.373001zm11.957001,-33.568001l28.146,16.25l0,32.5l-28.146,16.25l-28.146,-16.25l0,-32.5l28.146,-16.25z"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            
+            <a href="#about" class="header__scroll scroll">
+                <svg height="30px"  viewBox="0 0 26 26" width="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="scroll__icon"><polygon points="0.046,2.582 2.13,0.498 12.967,11.334 23.803,0.498 25.887,2.582 12.967,15.502  "/><polygon points="0.046,13.582 2.13,11.498 12.967,22.334 23.803,11.498 25.887,13.582 12.967,26.502  "/></svg>
+            </a>
+        </header>
+        
+        
+        <main class="main">
+            
+             <section class="about" id="about">
+                <h2>About me</h2>
+                <h3>Who am i?</h3>
+                <div class="line"></div>
+                <p class="about__paragraph">27-year-old graduate of bachelor's studies in the field of Mathematics. Computer Science - Administration of Network Computer Systems. Beginner passionate about creating websites and having fun in photoshop. A man who is looking for new challenges, willing to develop in network administration and web development.</p>
+                <div class="about__btns">
+                    <div class="about__btn">
+                        <a href="cv/cv.pdf" class="about__btn--overlay about__btn-name" download="Mateusz Podolak CV">
+                            <i class="fas fa-user about__btn-icon"></i>
+                            Download CV
+                        </a> 
+                    </div>
+                    <div class="about__btn">
+                        <a href="#portfolio" class="about__btn--overlay about__btn-name">
+                            <i class="fas fa-briefcase about__btn-icon"></i>
+                            Show Work
+                        </a> 
+                    </div>
+                    <div class="about__btn">
+                        <a href="#contact" class="about__btn--overlay about__btn-name">
+                            <i class="fas fa-envelope about__btn-icon"></i>
+                            Get In Touch
+                        </a> 
+                    </div>
+                </div>
+            </section>
+            
+            <section class="counters">
+                <div class="counters__item">
+                </div>
+                <div class="counters__item">
+                    <span class="counters__number counter">98782</span>
+                    <h3 class="counters__title">Lines of code</h3>
+                </div>
+                <div class="counters__item">
+                    <span class="counters__number counter">8</span>
+                    <h3 class="counters__title">Number of projects</h3>
+                </div>
+                <div class="counters__item">
+                    <span class="counters__number counter">768</span>
+                    <h3 class="counters__title">Coffees drunk</h3>
+                </div>
+                <div class="counters__item">
+                    <span class="counters__number">&#8734;</span>
+                    <h3 class="counters__title">Amount of ideas</h3>
+                </div>
+                <div class="counters__item">
+                    <span class="counters__number counter">2</span>
+                    <h3 class="counters__title">Years of experience in it</h3>
+                </div>
+                <div class="counters__item">
+                </div>
+            </section>
+            
+            <section class="offer" id="offer">
+                <h2>Work with</h2>
+                <h3>What's my offer</h3>
+                <div class="line"></div>
+                <div class="offer__list">
+                    <section class="offer__item">
+                        <img src="assets/images/coding-icon.svg" class="offer__icon" alt="">
+                        <div class="offer__description">
+                            <h4 class="offer__title">
+                                Lorem
+                            </h4>
+                            <p class="offer__description-paragraph">
+                                Clean, semantic html code compliant with today's standards.
+                            <p>
+                        </div>
+                    </section>
+                    <section class="offer__item">
+                        <img src="assets/images/ui-icon.svg" class="offer__icon" alt="">
+                        <div class="offer__description">
+                            <h4 class="offer__title">
+                                Lorem
+                            </h4>
+                            <p class="offer__description-paragraph">
+                                Creating a readable, modern, responsive design from scratch or using a ready-made template.
+                            <p>
+                        </div>
+                    </section>
+                    <section class="offer__item">
+                        <img src="assets/images/responsive-icon.svg" class="offer__icon" alt="">
+                        <div class="offer__description">
+                            <h4 class="offer__title">
+                                Lorem
+                            </h4>
+                            <p class="offer__description-paragraph">
+                                Responsive websites, readable on any device.
+                            <p>
+                        </div>
+                    </section>
+                    <section class="offer__item">
+                        <img src="assets/images/hosting-icon.svg" class="offer__icon" alt="">
+                        <div class="offer__description">
+                            <h4 class="offer__title">
+                                Lorem
+                            </h4>
+                            <p class="offer__description-paragraph">
+                                Help with website hosting and creating your own domain.
+                            <p>
+                        </div>
+                    </section>
+                    <section class="offer__item">
+                        <img src="assets/images/seo-icon.svg" class="offer__icon" alt="">
+                        <div class="offer__description">
+                            <h4 class="offer__title">
+                                Lorem
+                            </h4>
+                            <p class="offer__description-paragraph">
+                                Website optimization for search engines.
+                            <p>
+                        </div>
+                    </section>
+                    <section class="offer__item">
+                        <img src="assets/images/support-icon.svg" class="offer__icon" alt="">
+                        <div class="offer__description">
+                            <h4 class="offer__title">
+                                Lorem
+                            </h4>
+                            <p class="offer__description-paragraph">
+                                Fast response time via the contact form and setting the terms of cooperation.
+                            <p>
+                        </div>
+                    </section>
+                </div>
+               
+            </section>   
+            
+             <section class="testimonials">
+                 <div class="testimonials__item"> 
+                    <p class="testimonials__paragraph">
+                        "We are just an advanced breed of monkeys on a minor planet of a very average star. But we can understand the universe. That makes us something very special."
+                    </p>
+                    <div class="line"></div>
+                    <h4 class="testimonials__name">Stephen Hawking</h4>
+                 </div>
+                <div class="testimonials__item"> 
+                    <p class="testimonials__paragraph">
+                        "It has become appallingly obvious that our technology has exceeded our humanity."
+                    </p>
+                    <div class="line"></div>
+                    <h4 class="testimonials__name">Albert Einstein</h4>
+                </div>
+                <div class="testimonials__item"> 
+                    <p class="testimonials__paragraph">
+                        "Remember to look up at the stars and not down at your feet."
+                    </p>
+                    <div class="line"></div>
+                    <h4 class="testimonials__name">Stephen Hawking</h4>
+                 </div>
+            </section>
+            
+             <section class="portfolio" id="portfolio">
+                <h2>Example works</h2>
+                <h3>What i've created?</h3>
+                <div class="line"></div>
+                <div class="portfolio__box">
+					<div class="portfolio__item">
+						<img src="assets/images/portfolio/mockup.png"> 
+						<div class="portfolio__description">
+							<h2 class="portfolio__title">Google site copy</h2>
+							<span class="portfolio__description-description">Recruitment project. It was based on the best possible representation of the google.com website. The condition was to use only BOOTSTRAP, without using the css styles and JS.</span>
+						</div>
+                        <a href="" class="portfolio__item-btn">Live</a>
+                        <a href="" class="portfolio__item-btn">Code</a>
+					</div>
+					<div class="portfolio__item">
+						<img src="assets/images/portfolio/mockup.png"> 
+						<div class="portfolio__description">
+							<h2 class="portfolio__title">Sample Forms</h2>
+							<span class="portfolio__description-description">Website with sample forms. Registration form and sign in form, contact form, password reset and newsletter subscription. A challenge from the "Weekly WebDev Challenge" group on Facebook. A page from a ready, cut .psd template.
+
+                            </span>
+						</div>
+                         <a href="" class="portfolio__item-btn">Live</a>
+                        <a href="" class="portfolio__item-btn">Code</a>
+					</div>
+					<div class="portfolio__item">
+						<img src="assets/images/portfolio/mockup.png"> 
+						<div class="portfolio__description">
+							<h2 class="portfolio__title">Sample Modern Flat WebSite</h2>
+							<span class="portfolio__description-description">An exemplary, modern company website in pastel colors. Flat Design has been one of the most influential trends in web design. Site with google maps widget nad grid portfolio layout.</span>
+						</div>
+                         <a href="" class="portfolio__item-btn">Live</a>
+                        <a href="" class="portfolio__item-btn">Code</a>
+					</div>
+				</div>
+            </section>
+            
+             <section class="contact" id="contact">
+                <h2>Contact via</h2>
+                <h3>HOW TO REACH ME?</h3>
+                <div class="line"></div>
+                <p class="contact__paragraph">You can write to me at any time and I will try to write back as soon as possible! We will definitely come to an agreement.
+                If you are interested in more of my projects, please visit github and codepen.  
+                </p>
+                <section class="contact-info__container">
+                    <div class="contact-info__item">
+                        <div class="contact-info__item-wrapper">
+                            <img src="assets/images/contact%20name.svg" alt="Tekst alternatywny" class="contact-info__icon">
+                            <h4>Name</h4>
+                            <p>Mateusz Podolak</p>
+                        </div>
+                    </div>
+                    <div class="contact-info__item">
+                        <div class="contact-info__item-wrapper">
+                            <img src="assets/images/contact%20phone.svg" alt="Tekst alternatywny" class="contact-info__icon">
+                            <h4>Phone</h4>
+                            <p>+48 660 325 568</p>
+                        </div>
+                    </div>
+                    <div class="contact-info__item">
+                        <div class="contact-info__item-wrapper">
+                            <img src="assets/images/contact%20email.svg" alt="Tekst alternatywny" class="contact-info__icon">
+                            <h4>Email</h4>
+                            <p>podolakmateusz@outlook.com</p>
+                        </div>
+                    </div>
+                </section>
+                <form class="form" action="https://formspree.io/podolakmateusz@outlook.com" method="POST">
+                    <div class="form__field--input">
+                        <label>
+                            <p class="visually-hidden">Name<p>
+                            <input type="text" name="name" placeholder="Name" required>
+                        </label>
+                    </div>
+                    <div class="form__field--input">
+                        <label>
+                            <p class="visually-hidden">Phone<p>
+                            <input type="tel" name="phone" placeholder="Phone" required>
+                        </label>
+                    </div>
+                    
+                    
+                    <div class="form__field--input">
+                        <label>
+                            <p class="visually-hidden">Email<p>
+                            <input type="email" name="email" placeholder="Email" required>
+                        </label>
+                    </div>
+                    <div class="form__field--input">
+                        <label>
+                            <p class="visually-hidden">Company name<p>
+                            <input type="text" name="company name" placeholder="Company name" required>
+                        </label>
+                    </div>
+                    
+                    <div class="form__field--textarea ">
+                        <label>
+                            <p class="visually-hidden">Your message<p>
+                            <textarea placeholder="Message..." name="message"></textarea>
+                        </label>
+                    </div>
+                    <input type="submit" value="Submit" class="contact__submit-btn">
+                </form>
+            </section>
+    
+        </main>
+       
+         <footer class="footer">
+    <p> Copyright @ Mateusz Podolak </p>
+     <ul class="footer__social social">
+                <li class="social__item ">
+                    <a href="">
+                        <svg viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="social__link">
+                            <path d="m29.764999,50.319l6.743999,0l0,-16.320999l4.499001,0l0.596001,-5.624001l-5.095001,0l0.007,-2.815001c0,-1.467001 0.139999,-2.253 2.243999,-2.253l2.812,0l0,-5.625l-4.5,0c-5.404999,0 -7.306999,2.729 -7.306999,7.316l0,3.377001l-3.368999,0l0,5.625l3.368999,0l0,16.32zm3.735001,-49.319l28.146,16.25l0,32.5l-28.146,16.25l-28.146,-16.25l0,-32.5l28.146,-16.25z"/>
+                        </svg>
+                    </a>
+                </li>
+ 
+                <li class="social__item">
+                    <a href="">
+                        <svg viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="social__link">
+                            <path d="m50.837002,46.137001l0,-11.712002c0,-6.274 -3.350002,-9.193998 -7.816002,-9.193998c-3.604,0 -5.219002,1.981998 -6.118999,3.372999l0,-2.894001l-6.790001,0c0.09,1.917002 0,20.428001 0,20.428001l6.790001,0l0,-11.409c0,-0.610001 0.043999,-1.220001 0.223999,-1.657001c0.490002,-1.219999 1.607002,-2.481998 3.482002,-2.481998c2.458,0 3.439999,1.874001 3.439999,4.618l0,10.929001l6.789001,0zm-27.878002,-23.215c2.367001,0 3.842001,-1.569 3.842001,-3.531c-0.044001,-2.003 -1.475,-3.528001 -3.797001,-3.528001s-3.841,1.525001 -3.841,3.528001c0,1.962 1.473999,3.531 3.753,3.531l0.042999,0zm3.395,23.215l0,-20.427002l-6.789,0l0,20.427002l6.789,0zm7.146,-45.137001l28.146,16.25l0,32.5l-28.146,16.25l-28.146,-16.25l0,-32.5l28.146,-16.25z"/>
+                        </svg>
+                    </a>
+                </li>
+                
+                <li class="social__item">
+                    <a href="">
+                        <svg viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="social__link">
+                            <path d="M 33.5,1 5.3535156,17.25 v 32.5 L 33.5,66 61.646484,49.75 v -32.5 z m 0,15 c 0.290792,0 0.581401,0.08395 0.833984,0.251953 l 15.998047,10.662109 c 0.0082,0.007 0.01524,0.01373 0.02344,0.01953 0.0245,0.01633 0.04698,0.03328 0.07031,0.05078 0.02917,0.02333 0.05716,0.04972 0.08398,0.07422 0.021,0.01866 0.04072,0.03681 0.06055,0.05664 0.02567,0.02684 0.04972,0.05403 0.07422,0.08203 0.01866,0.02216 0.03445,0.04308 0.05078,0.06641 0.02334,0.02917 0.04345,0.05951 0.06445,0.08984 0.01517,0.02333 0.02819,0.04581 0.04102,0.07031 0.01983,0.03266 0.03641,0.06578 0.05273,0.09961 0.0105,0.0245 0.0227,0.04972 0.0332,0.07422 0.014,0.03617 0.02739,0.0732 0.03906,0.109375 0.0082,0.0245 0.01644,0.04972 0.02344,0.07422 0.0093,0.04083 0.01719,0.083 0.02539,0.125 0.0023,0.02216 0.0094,0.04228 0.01172,0.06445 C 50.995628,28.036036 51,28.101469 51,28.167969 v 10.664062 c 0,0.0665 -0.0044,0.130736 -0.01367,0.191407 -0.0024,0.02333 -0.0082,0.04424 -0.01172,0.06641 -0.007,0.042 -0.01489,0.083 -0.02539,0.125 -0.007,0.02567 -0.01719,0.04972 -0.02539,0.07422 -0.01167,0.03733 -0.02389,0.07516 -0.03906,0.111329 -0.0093,0.0245 -0.01958,0.04776 -0.03125,0.07227 -0.01633,0.03383 -0.0329,0.06773 -0.05273,0.101563 -0.01283,0.02333 -0.0278,0.04503 -0.04297,0.06836 -0.021,0.0315 -0.04112,0.06147 -0.06445,0.0918 -0.01633,0.02217 -0.03211,0.04345 -0.05078,0.06445 -0.02334,0.028 -0.04855,0.05636 -0.07422,0.08203 -0.01983,0.01983 -0.03759,0.03992 -0.05859,0.05859 -0.02684,0.02566 -0.05677,0.04894 -0.08594,0.07227 -0.02333,0.01867 -0.04386,0.03523 -0.06836,0.05273 -0.007,0.0058 -0.01609,0.01178 -0.02539,0.01758 L 34.333984,50.746094 C 34.081984,50.915261 33.7905,51 33.5,51 33.2095,51 32.91919,50.916453 32.666016,50.751953 L 16.669922,40.087891 c -0.0082,-0.0058 -0.01719,-0.01373 -0.02539,-0.01953 -0.02333,-0.0175 -0.04503,-0.03406 -0.06836,-0.05273 -0.02917,-0.02333 -0.05911,-0.04777 -0.08594,-0.07227 -0.01983,-0.01866 -0.03876,-0.03876 -0.05859,-0.05859 -0.02567,-0.02567 -0.04972,-0.05403 -0.07422,-0.08203 -0.0175,-0.021 -0.0364,-0.04033 -0.05273,-0.0625 -0.02334,-0.03034 -0.0415,-0.06225 -0.0625,-0.09375 -0.01517,-0.02333 -0.03014,-0.04503 -0.04297,-0.06836 -0.01866,-0.03383 -0.0364,-0.06773 -0.05273,-0.101563 -0.01166,-0.0245 -0.0227,-0.04776 -0.0332,-0.07227 -0.014,-0.03733 -0.02739,-0.07516 -0.03906,-0.111328 -0.0082,-0.0245 -0.01644,-0.04777 -0.02344,-0.07227 -0.0105,-0.042 -0.01839,-0.08495 -0.02539,-0.126953 -0.0046,-0.02216 -0.0082,-0.04112 -0.01172,-0.06445 C 16.005542,38.963964 16,38.898531 16,38.832031 V 28.167969 c 0,-0.0665 0.0055,-0.133096 0.01367,-0.197266 0.0035,-0.02216 0.0082,-0.04228 0.01172,-0.06445 0.007,-0.042 0.01489,-0.08417 0.02539,-0.125 0.007,-0.0245 0.01524,-0.04972 0.02344,-0.07422 0.01167,-0.03617 0.02506,-0.07321 0.03906,-0.109375 0.0105,-0.02567 0.02153,-0.04972 0.0332,-0.07422 0.01633,-0.03383 0.03406,-0.06694 0.05273,-0.09961 0.014,-0.0245 0.0278,-0.04698 0.04297,-0.07031 0.021,-0.03033 0.03917,-0.05951 0.0625,-0.08984 0.01633,-0.02333 0.03523,-0.04424 0.05273,-0.06641 0.02334,-0.028 0.04855,-0.0552 0.07422,-0.08203 0.01983,-0.01867 0.03876,-0.03914 0.05859,-0.05664 0.028,-0.02566 0.05794,-0.04894 0.08594,-0.07227 0.02333,-0.0175 0.04503,-0.03445 0.06836,-0.05078 0.0082,-0.0058 0.01609,-0.01253 0.02539,-0.01953 L 32.666016,16.251953 C 32.918599,16.083953 33.209208,16 33.5,16 Z m 1.503906,4.3125 v 7.017578 l 6.519532,4.361328 5.265624,-3.521484 z m -3.007812,0.002 -11.785156,7.855469 5.265624,3.521484 6.519532,-4.361328 z M 33.5,29.941406 28.181641,33.5 33.5,37.058594 38.820312,33.5 Z m -14.492188,1.042969 v 5.03125 L 22.769531,33.5 Z m 28.984376,0 -3.763672,2.515625 3.763672,2.515625 z m -22.515626,4.324219 -5.265624,3.521484 11.785156,7.855469 v -7.015625 z m 16.046876,0 -6.519532,4.361328 v 7.015625 l 11.785156,-7.855469 z" /> 
+                        </svg>
+                    </a>
+                </li>
+                         
+                <li class="social__item">
+                    <a href="">
+                        <svg viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="social__link">
+                            <path d="m21.542999,34.568001c-0.053999,0 0.592001,1.367001 0.610001,1.367001c1.41,2.515999 4.128,4.079998 8.712999,4.513c-0.653999,0.487999 -1.439999,1.414997 -1.549,2.485996c-0.823,0.522003 -2.477999,0.695004 -3.764,0.297001c-1.802999,-0.559998 -2.493,-4.066998 -5.191999,-3.566998c-0.584,0.107998 -0.468,0.486 0.037001,0.808998c0.823,0.521999 1.597,1.178001 2.193998,2.570999c0.459002,1.07 1.423,2.982002 4.473001,2.982002c1.209999,0 2.057999,-0.144001 2.057999,-0.144001s0.023001,2.730999 0.023001,3.792999c0,1.225002 -1.681999,1.57 -1.681999,2.159c0,0.232002 0.556999,0.255001 1.004,0.255001c0.883999,0 2.723,-0.726002 2.723,-1.998001c0,-1.010998 0.017,-4.410999 0.017,-5.006001c0,-1.299999 0.709,-1.711998 0.709,-1.711998s0.088001,6.940998 -0.169001,7.871998c-0.302,1.094002 -0.847,0.938 -0.847,1.427002c0,0.725998 2.214003,0.177998 2.948,-1.416c0.567001,-1.240002 0.319,-8.049999 0.319,-8.049999l0.605,-0.012001c0,0 0.034,3.117001 0.013,4.542c-0.021,1.476002 -0.121998,3.341999 0.77,4.222c0.585999,0.577999 2.484001,1.593998 2.484001,0.666c0,-0.539001 -1.040001,-0.982002 -1.040001,-2.441002l0,-6.715c0.831001,0 0.706001,2.208 0.706001,2.208l0.060997,4.103001c0,0 -0.183998,1.493999 1.645,2.119999c0.645,0.222 2.025002,0.281002 2.09,-0.091c0.065002,-0.372997 -1.661999,-0.926998 -1.677998,-2.084999c-0.010002,-0.706001 0.031998,-1.118 0.031998,-4.186001c0,-3.067997 -0.418999,-4.202 -1.879997,-5.105c4.507999,-0.455997 7.299,-1.551998 8.657997,-4.487c0.106003,0.003002 0.555,-1.370998 0.496002,-1.370998c0.305,-1.108002 0.469997,-2.419003 0.501999,-3.972002c-0.007999,-4.209 -2.057999,-5.698 -2.451,-6.396999c0.580002,-3.187 -0.098,-4.638 -0.411999,-5.135c-1.162003,-0.406 -4.041,1.044001 -5.615002,2.066c-2.563999,-0.736 -7.986,-0.666 -10.018999,0.190001c-3.750999,-2.639999 -5.736,-2.235001 -5.736,-2.235001s-1.283001,2.26 -0.339001,5.565001c-1.233999,1.546 -2.153999,2.639999 -2.153999,5.539c0,1.635 0.195999,3.097 0.636999,4.373001zm11.957001,-33.568001l28.146,16.25l0,32.5l-28.146,16.25l-28.146,-16.25l0,-32.5l28.146,-16.25z"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+ </footer>
+        
+   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
+        <script src="assets/js/script.js"></script>
+   
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+		<script src="assets/js/jquery.countup.js"></script>
+       
+		<script>
+			$('.counter').countUp();
+		</script>
+		<script src="assets/js/script.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+
+ <title/>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title stroke="#410a1d">Layer 1</title>
+  <rect stroke="#410a1d" stroke-width="2px" stroke-linejoin="round" fill="none" id="svg_1" y="4.623362" x="1.286055" width="62" ry="2" rx="2" height="50.367103" class="cls-1"/>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_2" y2="10.430274" y1="10.430274" x2="63.762813" x1="1.762813" class="cls-1"/>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_3" y2="7.479142" y1="7.479142" x2="7.239571" x1="5.239571" class="cls-1"/>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_4" y2="7.479142" y1="7.479142" x2="11.239571" x1="9.239571" class="cls-1"/>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_5" y2="7.479142" y1="7.479142" x2="61.239571" x1="59.239571" class="cls-1"/>
+  <path stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_6" d="m51.239571,34.479142a18,18 0 0 1 -36,0" class="cls-1"/>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_7" y2="57.479142" y1="52.479142" x2="33.239571" x1="33.239571" class="cls-1"/>
+  <path stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_10" d="m46.239571,34.479142a13,13 0 0 1 -26,0" class="cls-1"/>
+  <polyline stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_11" points="10.23957085609436,15.479141473770142 6.23957085609436,15.479141473770142 6.23957085609436,19.479142427444458 " class="cls-1"/>
+  <polyline stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_12" points="55.95351579785347,51.94398021697998 59.95351579785347,51.94398021697998 59.95351579785347,47.94398021697998 " class="cls-1"/>
+  <path stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_13" d="m25.239571,20.479142l0,-3a2,2 0 0 0 -2,-2l-6,0a2,2 0 0 0 -2,2l0,4a2,2 0 0 0 2,2l6,0a2,2 0 0 1 2,2l0,4a2,2 0 0 1 -2,2l-6,0a2,2 0 0 1 -2,-2l0,-3" class="cls-1"/>
+  <polyline stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_14" points="38.23957085609436,15.479141473770142 30.23957085609436,15.479141473770142 30.23957085609436,31.479142427444458 38.23957085609436,31.479142427444458 " class="cls-1"/>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_15" y2="23.479142" y1="23.479142" x2="38.239571" x1="30.239571" class="cls-1"/>
+  <rect stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_16" y="15.479142" x="42.239571" width="9" ry="2" rx="2" height="16" class="cls-1"/>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_17" y2="37.479142" y1="37.479142" x2="34.239571" x1="32.239571" class="cls-1"/>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_18" y2="37.479142" y1="37.479142" x2="39.239571" x1="37.239571" class="cls-1"/>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#410a1d" fill="none" id="svg_19" y2="37.479142" y1="37.479142" x2="29.239571" x1="27.239571" class="cls-1"/>
+ </g>
+</svg>
