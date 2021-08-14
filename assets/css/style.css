@@ -201,11 +201,13 @@ h3 {
 .social {
     display: flex;
     justify-content: center;
+    width:80%;
     height: 90px;
     padding: 0;
-    margin: 0;
+ 
     align-items: center;
-    width: 100%;
+    
+    margin: 0 auto;
     margin-top: 30px;
 }
 
@@ -225,14 +227,8 @@ h3 {
 }
 
 @media all and (max-width: 372px) {
-    .header .social__item {
-        width: 70px;
-    }
+
     
-    .header .social__link {
-        width: 100px;
-        height: 130px;
-    }
 }
 
 .header {
