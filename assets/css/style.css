@@ -209,14 +209,13 @@ h3 {
     margin-top: 30px;
 }
 
+
 .social__item {
     width: 90px;
     height: 90px;
 }
 
 .social__link {
-    width: 135px;
-    height: 130px;
     fill: #ffffff;
     transition: all 0.3s ease-in-out;
 }
