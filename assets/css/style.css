@@ -765,7 +765,7 @@ h3 {
 @media (min-width: 300px) and (max-width: 614px ) {
     .portfolio__description {
         height: auto;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
     .portfolio__item-btn {
         margin: 0;
