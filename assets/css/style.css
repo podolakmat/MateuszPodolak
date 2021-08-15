@@ -764,13 +764,17 @@ h3 {
 
 @media (min-width: 300px) and (max-width: 614px ) {
     .portfolio__description {
-        height: 120px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .portfolio__item-btn {
+        margin: 0;
     }
 }
 
 @media (min-width: 300px) and (max-width: 480px ) {
     .portfolio__description {
-        height: 150px;
+        height: auto;
     }
 }
 .contact {
