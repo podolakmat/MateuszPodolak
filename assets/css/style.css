@@ -732,6 +732,7 @@ h3 {
     font-weight: bold;
     background-color: #410A1D;
     border-radius: 1px;
+    margin-bottom: 50px;
 }
 
 .portfolio__item-btn:hover {
