@@ -136,15 +136,15 @@ h3 {
 }
 
 
-@media screen and (max-width: 1224px) {
+@media (min-width: 769px) and (max-width: 1059px) {
     .nav-links {
-        width: 50%;
+        width: 55%;
     }
 }
 
-@media screen and (max-width: 1958px) {
+@media (min-width: 1060px) and (max-width: 1958px) {
     .nav-links {
-        width: 60%;
+        width: 40%;
     }
 }
 
@@ -747,6 +747,7 @@ h3 {
     
     .portfolio__description {
         margin-top: 20px;
+        margin-bottom: -30px;
     }
 }
 
@@ -765,7 +766,7 @@ h3 {
 @media (min-width: 300px) and (max-width: 614px ) {
     .portfolio__description {
         height: auto;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
     }
     .portfolio__item-btn {
         margin: 0;
